@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    --font01: 'Montserrat', sans-serif;
+    --font02: 'Passion One', sans-serif;
+    --font03: 'Fraunces', serif;
+    /* cores */
+    --cor01: hsl(158, 36%, 37%);
+    --cor02: hsl(212, 21%, 14%);
+    --cor03: hsl(228, 12%, 48%);
+    --cor04: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.753);
+}
+
+img {
+    width: 265px;
+    height: 400px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div {
+    display: inline block;
+    width: 265px;
+    height: 400px;
+    padding-left: 25px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: var(--cor04);
+}
+
+h2 {
+    font-size: 14px;
+    color: var(--cor03);
+}
+
+h1 {
+    color: var(--cor02);
+}
+
+article {
+    color: var(--cor03);
+    font-family: var(--font01);
+    font-size: 14px;
+}
+
+p {
+    font-family: var(--font03);
+    font-size: 25px;
+    color: var(--cor01);
+}
+
+del {
+    font-size: 14px;
+    padding-left: 16px;
+    color: var(--cor03);
+}
+
+button {
+    background-color: var(--cor01);
+    width: 235px;
+    height: 50px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button > img {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+#unico {
+    display: block;
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    font-family: var(--cor02);
+}
